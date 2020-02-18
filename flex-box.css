@@ -1,0 +1,117 @@
+/* header start */
+.header {
+background-color: olivedrab;
+height: 100px;
+line-height: 70px;
+display: flex;
+justify-content: space-between;
+padding-right: 2.5%;
+padding-left: 2.5%;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+}
+
+/* .header div {
+    border: 1px solid white;
+} */
+
+.menu {
+    display: flex;
+    flex-basis: 40%;
+        /* flex: 1; */
+}
+
+.menu div {
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+.isiHeader {
+    /* flex: 1; */
+    font-size: 30px;
+    font-weight: bolder;
+}
+/* header end */
+
+.container1{
+    background-color: darkgrey;
+    height: 50vh; /*view */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*agar ke tengah*/
+    align-items: center;
+}
+
+.container1 div{
+    /* border: 1px solid black; */
+    font-size: 30px;
+    color: wheat;
+}
+
+
+
+.container2 {
+    /* border: 1px solid black; */
+    display: flex;
+    /* padding: 50px; */
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.card .gambar {
+    height: 70%;
+    background-color: aqua;
+}
+
+/* .container2 div {
+    height: 270px;
+    width: 200px;
+    background-color: chartreuse;   
+} */
+
+.container2 .card {
+    height: 300px;
+    flex-basis: 23%;
+    background-color: chocolate;
+    border-radius: 10px;
+
+}
+
+
+
+/* ======================================= */
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+/* .container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    line-height: 150px;
+    height: 400px;
+    background-color: skyblue;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px, 10px, 0px, 10px;
+} */
+
+/* .container div{
+    height: 200px;
+    width: 19.84%;
+    font-size: 54px;
+    background-color: salmon;
+    border: 1px solid black;
+    transition: 50ms;
+} */
+
+/* .container div:hover {
+    cursor: pointer;
+    background-color: lawngreen;
+} */

@@ -1,0 +1,137 @@
+/* header */
+.header {
+    background-color: rgb(127, 168, 217) ; /* warna */
+    height: 100px;
+    line-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+/* .header div {
+    border: 1px solid white;
+    justify-content: center;
+} */
+
+.isiHeader {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.menuHeader {
+    display: flex;
+    flex-basis: 20%;
+    font-size: 15px;
+    /* justify-content: center; */
+}
+
+.menuHeader div {
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin: 0px;
+    background-color: rgb(144, 216, 248);
+    color: cornsilk;
+    font-size: 30px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    /* flex-direction: row; */
+}
+
+.card1 {
+    display: flex;
+    height: 200px;
+    flex-basis: 30%;
+    background-color: rgb(153, 190, 218); 
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.row2 {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.card2 {
+    height: 180px;
+    flex-basis: 20%;
+    background-color: rgb(145, 169, 219);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.row3 {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.card3 {
+    height: 180px;
+    flex-basis: 20%;
+    background-color: rgba(156, 186, 226, 0.513);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.row4 {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.card4 {
+    height: 180px;
+    flex-basis: 30%;
+    background-color:rgb(147, 205, 216);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.colom {
+    flex-direction: column;
+    height: 50px;
+    flex-basis: 20%;
+    /* border: 1px solid rgb(124, 123, 97); */
+    justify-content: center;
+    /* padding: 25px; */
+}
+
+.container1 {
+    margin: 20px;
+    background-color: rgb(128, 182, 206);    
+    height: 30vh;
+}
+
+
+.footer {
+        /* margin: 25px; */
+        background-color: #22221c;    
+        height: 10vh;
+        /* display: flex; */
+}
